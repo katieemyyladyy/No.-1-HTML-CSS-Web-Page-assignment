@@ -1,0 +1,144 @@
+
+	body {background-image: url("file:///Users/katieherchenroeder/Documents/GitHub/interactive/backgroundlarge.png");} 
+
+	h1 {font-size: 79px;
+	line-height: 59px;
+	text-align: center;
+	color: #195F6B;
+	font-family: 'Barlow Condensed', sans-serif;}
+
+	h2 {font-size: 28px;
+	line-height:20px;
+	text-align: center;
+	color: #195F6B;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-style: italic;
+	padding: 5px;}
+
+	p {font-size: 24px;
+	color: #195F6B;
+	text-align: center;
+	font-family: 'Barlow Condensed', sans-serif;}
+
+	h4 {font-size: 15px;
+	color: #FDC161;
+	text-align: center;
+	font-family: 'Barlow Condensed', sans-serif;}
+
+	h5 {font-size: 44px;
+	line-height:49px;
+	text-align: center;
+	color: #112025;
+	font-family: 'Barlow Condensed', sans-serif;
+  	border-bottom: 3px solid #112025;
+  	border-top: 3px solid #112025;
+  	width: 500px;
+  	margin: auto;
+  	padding:10px;}
+
+	html {
+    position: relative;
+    min-height: 100%;}
+
+	body {
+    margin: 0 0 100px;
+    padding: 25px;}
+
+	footer {
+    background-color: #195F6B;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;}	
+
+		#main_Article {
+		border: 10px double #FDC161;
+		border-style: dotted;
+		border-radius: 30px;}
+
+		.headline {border: 7px solid #FCA00C;
+			border-style: outset;
+			border-radius: 10px;
+			margin: auto auto 90px;}
+
+		.toggle-drop {font-weight: 600;}
+
+  		#toggle-drop-char {font-size:50px;}
+
+		.boxy {width: 650px;
+		margin: 100px auto;
+		text-align: center;
+		background-color:#EFF0F4;
+		padding:45px;}
+
+		#audio_player {width: 300px;
+  		height: 30px;
+  		margin: 20px auto auto auto;
+  		text-align: center;
+  		border: 5px solid #FDC161;
+  		border-radius: 25px;
+  		background-color: #195F6B;}
+
+
+		#slideshow {
+  		overflow:hidden;
+  		height: 400px;
+  		width: 533px;
+  		margin: 0 auto;
+  		border: 10px solid #FDC161;
+  		border-radius: 10px;}
+
+		.slide-wrapper {
+ 		 width: 5330px;
+  		-webkit-animation: slide 30s ease infinite;
+  		margin: center;}
+
+		.slide {
+		float: left;
+  		height: 400px;
+  		width: 533px;}
+
+		.slide:nth-child(1) {
+  		background: #FCD492;}
+
+		.slide:nth-child(2) {
+  		background: #FCD492;}
+
+		.slide:nth-child(3) {
+  		background: #FCD492;
+		}
+
+		.slide:nth-child(4) {
+  		background: #FCD492;}
+
+		.slide:nth-child(5) {
+  		background: #FCD492;}
+
+		.slide:nth-child(6) {
+  		background: #FCD492;}
+
+		.slide:nth-child(7) {
+  		background: #FCD492;}
+
+		.slide:nth-child(8) {
+  		background: #FCD492;}
+
+		.slide:nth-child(9) {
+  		background: #FCD492;}
+
+		.slide:nth-child(10) {
+		background: #FCD492;}
+
+
+		@-webkit-keyframes slide {
+  		10% {margin-left: 0px;}
+  		20% {margin-left: -533px;}
+  		30% {margin-left: -1066px;}
+  		40% {margin-left: -1599px;}
+  		50% {margin-left: -2132px;}
+  		60% {margin-left: -2665px;}
+  		70% {margin-left: -3198px;}
+  		80% {margin-left: -3731px;}
+  		90% {margin-left: -4264px;}
+  		100% {margin-left: -4797px;}}
